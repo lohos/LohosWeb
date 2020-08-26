@@ -26,9 +26,9 @@ h3 {
   color: #66bfbf;
 }
 
-/* img:hover {
-  background: src("images/Lohos2.jpg");
-} */
+img {
+  background-color: #EAF6F6;
+}
 
 .circular {
   border-radius:  100%;
@@ -49,4 +49,5 @@ h3 {
 }
 .card:hover .img-top {
     display: inline;
+
 }
