@@ -8,13 +8,6 @@ body {
   background-color: #EAF6F6;
 }
 
-hr {
-  border-style: none;
-  border-top-style: dotted;
-  border-color: gray;
-  border-width: 5px;
-  width: 20%;
-}
 
 h2 {
   /* background-color: black; */
@@ -24,10 +17,32 @@ h2 {
 h3 {
   /* background-color: black; */
   color: #66bfbf;
+  text-align: center;
 }
 
 img {
   background-color: #EAF6F6;
+}
+
+.top {
+  text-align: center;
+  padding: 10px;  
+}
+
+.top a {
+  padding: 0px 5px;
+}
+
+.center {
+  padding: 10px 15%;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+}
+.footer a {
+  padding: 0px 5px;
 }
 
 .circular {
@@ -50,4 +65,8 @@ img {
 .card:hover .img-top {
     display: inline;
 
+}
+
+.privacy h1, .privacy h2{
+  text-align: center;
 }
